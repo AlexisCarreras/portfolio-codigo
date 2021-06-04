@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.contentComida {
+  width: 25rem;
+  height: 20rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  background-color: #333;
+  border: 0.1px solid #000;
+  transition: transform .1s;
+  box-shadow: 1px 1px 3px #ff714a;
+}
+
+.contentComida:hover {
+  transform: scale(1.1);
+}
+
+.contentClima {
+  width: 25rem;
+  height: 20rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  background-color: #333;
+  border: 0.1px solid #000;
+  transition: transform .1s;
+  box-shadow: 1px 1px 3px #ff714a;
+}
+
+.contentClima:hover {
+  transform: scale(1.1);
+}
+
+.fondo-responsivo {
+  margin: 0;
+  background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(img/pc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 610px;
+}
+
+.contenedorImg {
+  -moz-display: flex;
+  -webkit-display: flex;
+  -o-display: flex;
+  -ms-display: flex;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -o-justify-content: center;
+  -ms-justify-content: center;
+
+  -moz-padding-top: 4.5rem;
+  -webkit-padding-top: 4.5rem;
+  -o-padding-top: 4.5rem;
+  -ms-padding-top: 4.5rem;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 4.5rem;
+}
+
+.imgCel {
+  -moz-width: 7rem;
+  -webkit-width: 7rem;
+  -o-width: 7rem;
+  -ms-width: 7rem;
+  width: 7rem;
+}
